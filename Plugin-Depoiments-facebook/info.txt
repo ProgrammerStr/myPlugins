@@ -1,0 +1,32 @@
+----------------------------------------------------------------			
+|    M E U  E S Q U E M A  D E  O R G A N I Z A Ç Ã O          |
+| P A R A  M A N U T E N Ç õ E S  S E M  R E P O S I T Ó R I O |
+----------------------------------------------------------------
+B Y  G A B R I E L
+
+Pasta principal: numero_nome_loja - ex: 1801_novo-layout_padovani
+
+	01_Templates: pasta que contem os templetes alterados e bkps
+
+	02_PSD: contém os arquivos dos layouts
+	
+	03_css-versions: pasta que contem as versões de css criadas e colocadas online com nome oficial
+
+	04_js-versions: pasta que contem as versoes de js criadas e disponibilizadas online com nome oficial
+
+	05_images-versions: contém os arquivos de imagens colocados online
+
+	css: contem os arquivos css editados localmente - main.css
+
+	js: contém os arquivos js editados localmente - main.js
+
+	img: contém os arquivos de imagens utilizados localmente
+
+	main.html (Arquivo html editado localmente)
+	
+	doc.txt (Documentação da Tarefa)
+
+	
+	
+
+

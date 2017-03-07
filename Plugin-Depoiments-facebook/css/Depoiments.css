@@ -1,0 +1,309 @@
+/* reset */
+html,
+body,
+div,
+nav,
+header,
+footer,
+section,
+figure,
+ul,
+li,
+a,
+b,
+hr,
+img,
+span,
+em,
+img,
+form,
+fieldset,
+input,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    border:0;
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+}
+/* :reset */
+
+/* config */
+body{
+    background-color: white;
+    font-family:'Open Sans', sans-serif !important;
+}
+.full{
+    width:100%;
+    max-width:1180px;
+    min-width:280px;
+    margin:0 auto;
+}
+header,
+section.section,
+footer{
+    width:100%;
+    float:left;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.relative{
+    position:relative;
+}
+.none{
+    display:none;
+}
+img{
+    max-width: 100% !important
+}
+/* :config */
+
+
+/* S T Y L E  F O R  D E P O I M E N T S */
+
+/* H E A D E R  D E P O S */
+
+.sized {
+  width: 90% !important;
+}
+
+#depos {
+  width: 100%;
+  float: left; 
+  margin: 0 auto;}
+#depos .headerDepos {
+  width: 100%; }
+#depos .headerDepos .depoIcon {
+  background-color: #3b5998;
+  box-sizing: border-box;
+  padding: 15px 11%;
+  width: 25%;
+  float: left; 
+  }
+#depos .headerDepos .depoIcon i {
+  font-size: 32px;
+  color: #ffffff; }
+#depos .headerDepos .depoTitle {
+  background-color: #99d2ff;
+  padding: 15px 0px 15px 50px;
+  box-sizing: border-box;
+  width: 75%;
+  float: left;
+  }
+#depos .headerDepos .depoTitle h1 {
+  color: #3b5998;
+  font-size: 18px;
+  /* font-family: "Vidaloka", serif; */
+  text-transform: uppercase;
+  font-weight: 200;
+  }
+#depos .headerDepos .depoTitle h1 span {
+  font-weight: 700;
+  font-size: 28px;
+   }
+
+  /* C O N T E N T  D E P O S */
+  #depos .contentDepos {
+  width: 100%; }
+#depos .contentDepos li {
+  float: left;
+  border-bottom: 2px solid #c6cad0; 
+  width: 100%;}
+#depos .contentDepos li:last-child {
+  border-bottom: none !important; }
+#depos .contentDepos li figure {
+  float: left;
+  padding: 30px 0; 
+  box-sizing: border-box;
+  width: 25%;
+  }
+#depos .contentDepos li figure img {
+  float: left; 
+  }
+#depos .contentDepos li figure figcaption {
+  width: 60%;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 20px;
+  }
+#depos .contentDepos li figure figcaption .likes {
+  width: 100%;
+  float: left; }
+#depos .contentDepos li figure figcaption .likes i {
+  color: #f55065;
+  font-size: 28px; }
+#depos .contentDepos li figure figcaption h3 {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  font-weight: 700;
+  color: #404750;
+  padding: 10px 0px; }
+#depos .contentDepos li figure figcaption .pubDay {
+  width: 100%;
+  float: left;
+  font-size: 10px;
+  color: #404750; }
+#depos .contentDepos li .textDepo {
+  float: left;
+  box-sizing: border-box;
+  padding: 30px 120px 30px 10px; 
+  width: 75%;
+  }
+#depos .contentDepos li .textDepo span.textIcon {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+#depos .contentDepos li .textDepo span.textIcon i {
+  font-size: 32px;
+  color: #3b5998; }
+#depos .contentDepos li .textDepo p {
+  width: 100%;
+  float: left;
+  font-size: 14px;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #656a70; }
+#depos .contentDepos li .textDepo span.textLink {
+  width: 100%;
+  float: left;
+  font-size: 10px;
+  text-decoration: underline;
+  color: #e38fb1; }
+
+
+  /* F O O T E R  D E P O S */
+  #depos .footerDepos {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #ebebeb;
+  margin-bottom: 40px; 
+  float: left;
+  }
+#depos .footerDepos .moreDepos {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 10px; 
+  width: 25%;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+#depos .footerDepos .moreDepos a {
+  width: 100%;
+  color: #ffffff;
+  padding: 10px 25px;
+  background-color: #3B5998;
+  font-size: 14px;
+  border-radius: 8px;
+  transition: all 0.15s ease;
+  display: inline-block; 
+  margin-left: 0px;
+  }
+#depos .footerDepos .moreDepos a:hover {
+  background-color: #99d2ff;
+  }
+
+/* M E D I A  Q U E R Y S */
+
+@media screen and (max-width: 1200px){
+    #depos .headerDepos .depoIcon {
+        padding: 25px 11%;
+    }
+}
+
+@media screen and (max-width: 810px){
+    #depos .headerDepos .depoIcon, #depos .headerDepos .depoTitle{
+        width: 100%;
+        text-align: center;
+    }
+
+    #depos .headerDepos .depoIcon {
+        padding: 10px 11%;
+    }
+
+    #depos .headerDepos .depoTitle{
+      padding: 15px 0 15px 0;
+    }
+
+    #depos .contentDepos li figure {
+        width: 100% !important;
+    }
+
+     #depos .contentDepos li .textDepo {
+         width: 100%;
+         text-align: center;
+         padding: 0px 0px 30px 0px;
+         margin-top: 0 !important;
+     }
+
+     #depos .contentDepos li .textDepo span.textIcon {
+         text-align: left;
+     }
+
+     #depos .contentDepos li .textDepo p,  #depos .contentDepos li .textDepo span.textLink{
+
+            display: inline-block;
+     }
+
+
+     #depos .footerDepos .moreDepos {
+        width: 50%;
+        margin-left: 0;
+        margin-right: 0;
+     }
+
+     #depos .footerDepos .moreDepos a {
+       padding: 10px 0;
+     }
+
+
+}
+
+@media screen and (max-width: 1116px){
+
+    #depos .contentDepos li figure {
+        text-align: center;
+    }
+
+    #depos .contentDepos li figcaption{
+        padding-left: 0 !important;
+        padding-top: 10px;
+        width: 100% !important;
+        display: inline-block;
+    }
+
+    #depos .contentDepos li figure img {
+        display: inline-block;
+        float: none;
+    }
+
+    #depos .contentDepos li .textDepo {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 440px){
+
+    #depos .footerDepos .moreDepos {
+        width: 100%;
+     }
+}
+
+
+
+
